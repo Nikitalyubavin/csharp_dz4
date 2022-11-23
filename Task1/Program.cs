@@ -2,8 +2,8 @@
 3, 5 -> 243 (3⁵)
 2, 4 -> 16 */
 
-double number1 = UserInput("Введите первое число: ", "Ошибка ввода!");
-double number2 = UserInput("Введите второе число: ", "Ошибка ввода!");
+double number1 = UserInput("Введите первое целое число: ", "Ошибка ввода!");
+double number2 = UserInput("Введите второе целое число: ", "Ошибка ввода!");
 Console.WriteLine($"{number1}, {number2} -> {NumberInGrade(number1, number2)}");
 
 double NumberInGrade(double num1, double num2)
